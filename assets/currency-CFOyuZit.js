@@ -1,0 +1,1 @@
+let t=86,n=0;const s=36e5;async function o(){const a=Date.now();if(a-n<s&&t)return t;try{const e=await(await fetch("https://api.exchangerate-api.com/v4/latest/USD")).json();if(e&&e.rates&&e.rates.INR)return t=e.rates.INR,n=a,t}catch(r){console.error("Failed to fetch exchange rate:",r)}return t}export{o as g};

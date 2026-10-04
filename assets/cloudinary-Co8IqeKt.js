@@ -1,0 +1,1 @@
+async function t(e){const a=new FormData;return a.append("file",e),a.append("upload_preset","elevraa_resources"),(await(await fetch("https://api.cloudinary.com/v1_1/dkvczvy3j/upload",{method:"POST",body:a})).json()).secure_url}export{t as u};

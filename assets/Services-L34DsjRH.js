@@ -1,0 +1,125 @@
+import{c as o,r as c,j as e,W as p,D as a,H as r,I as m}from"./main-x15dh-c2.js";import{s as h}from"./services-D6TmqqNg.js";const b=[["path",{d:"M7 7h10v10",key:"1tivn9"}],["path",{d:"M7 17 17 7",key:"1vkiza"}]],x=o("arrow-up-right",b);function f(){const[l,d]=c.useState([]);return c.useEffect(()=>{const n=h(s=>{const t=s.filter(i=>i.published);d(t)});return()=>n()},[]),e.jsxs("div",{className:"min-h-screen bg-[#fdfdfd] overflow-x-hidden",children:[e.jsx(p,{}),e.jsxs("section",{className:"relative pt-40 pb-24 overflow-hidden",children:[e.jsx("div",{className:`
+            absolute
+            inset-0
+            z-0
+            pointer-events-none
+            bg-[radial-gradient(ellipse_at_top,rgba(236,238,127,0.9)_0%,rgba(236,238,127,0.55)_30%,rgba(236,238,127,0.25)_50%,transparent_75%)]
+          `}),e.jsxs("div",{className:"relative z-10 max-w-7xl mx-auto px-4 lg:px-8",children:[e.jsx(a.div,{initial:{opacity:0,y:10},animate:{opacity:1,y:0},className:"text-center mb-5",children:e.jsx("span",{className:"text-sm font-medium tracking-wide",children:"• Services"})}),e.jsx(a.h1,{initial:{opacity:0,y:18},animate:{opacity:1,y:0},className:"text-center",children:e.jsxs("span",{className:`
+                font-garet
+                text-5xl
+                sm:text-6xl
+                lg:text-7xl
+                tracking-[-0.04em]
+              `,style:{WebkitTextStroke:"1.5px black",color:"black"},children:["Offerings"," "]})})]})]}),e.jsx("section",{className:"pb-32",children:e.jsxs("div",{className:"max-w-7xl mx-auto px-4 lg:px-8",children:[e.jsx("div",{className:"hidden lg:block border-t border-black/10",children:l.map((n,s)=>e.jsx(a.div,{initial:{opacity:0,y:24},whileInView:{opacity:1,y:0},viewport:{once:!0},transition:{duration:.45,delay:s*.04},children:e.jsxs(r,{to:`/services/${n.slug}`,className:`
+    grid
+grid-cols-[480px_minmax(0,1fr)]   items-start
+    gap-14
+    py-10
+    px-4
+    border-b
+    border-black/10
+    hover:bg-black/[0.015]
+    transition-all
+  `,children:[e.jsxs("div",{className:`
+      h-full
+      flex
+      flex-col
+      justify-between
+      min-h-[260px]
+    `,children:[e.jsxs("div",{children:[e.jsx("p",{className:`
+          text-[11px]
+          uppercase
+          tracking-[0.14em]
+          text-black/35
+          mb-5
+        `,children:"Service"}),e.jsx("h2",{className:`
+  font-garet
+  text-[38px]
+  leading-[0.98]
+  tracking-[-0.05em]
+  text-black
+  max-w-[480px]
+  font-medium
+`,children:n.hero?.title})]}),e.jsxs("div",{className:"pt-8",children:[e.jsx("p",{className:`
+          text-[11px]
+          uppercase
+          tracking-[0.14em]
+          text-black/35
+          mb-5
+        `,children:"Results"}),e.jsx("div",{className:"flex flex-wrap gap-3",children:n.results?.slice(0,3).map((t,i)=>e.jsxs("div",{className:`
+                flex
+                items-center
+                gap-2
+                px-4
+                py-2.5
+                rounded-full
+                bg-white
+                text-[13px]
+                font-medium
+                text-gray-800
+                shadow-[0_6px_14px_-6px_rgba(0,0,0,0.16)]
+                whitespace-nowrap
+                leading-none
+              `,children:[e.jsx("span",{className:"text-black",children:"✦"}),t]},i))})]})]}),e.jsxs("div",{className:`
+      h-full
+      flex
+      flex-col
+      justify-between
+      min-h-[260px]
+    `,children:[e.jsx("div",{className:"max-w-[760px] pt-8",children:e.jsx("p",{className:`
+          text-[18px]
+          leading-[1.7]
+          text-black/65
+        `,children:n.hero?.description})}),e.jsxs("div",{className:"flex items-center justify-between pt-16",children:[e.jsx("div",{className:`
+          inline-flex
+          items-center
+          justify-center
+          px-7
+          py-3
+          rounded-full
+          bg-[#ECEE7F]
+          text-black
+          text-[14px]
+          font-semibold
+          shadow-[0_10px_20px_-10px_rgba(0,0,0,0.35)]
+        `,children:n.hero?.ctaText||"Book a call"}),e.jsxs("div",{className:`
+          flex
+          items-center
+          gap-2
+          text-black/70
+          text-[14px]
+          font-medium
+        `,children:[e.jsx("span",{className:"underline underline-offset-4",children:"Know more"}),e.jsx(x,{className:"w-4 h-4"})]})]})]})]})},n.id))}),e.jsx("div",{className:"lg:hidden space-y-5",children:l.map((n,s)=>e.jsx(a.div,{initial:{opacity:0,y:24},whileInView:{opacity:1,y:0},viewport:{once:!0},transition:{duration:.45,delay:s*.04},children:e.jsxs(r,{to:`/services/${n.slug}`,className:`
+                      block
+                      bg-white
+                      border
+                      border-black/10
+                      rounded-[32px]
+                      p-6
+                      shadow-[0_10px_30px_-18px_rgba(0,0,0,0.15)]
+                    `,children:[e.jsxs("div",{className:"mb-5",children:[e.jsx("p",{className:`
+                          text-[11px]
+                          uppercase
+                          tracking-[0.12em]
+                          text-black/40
+                          mb-3
+                        `,children:"Service"}),e.jsx("h2",{className:`
+  text-[30px]
+  font-garet
+  leading-[1]
+  tracking-[-0.04em]
+  text-black
+  max-w-[320px]
+`,children:n.hero?.title})]}),e.jsx("p",{className:`
+                        text-[16px]
+                        leading-[1.5]
+                        text-black/70
+                        mb-8
+                      `,children:n.hero?.description}),e.jsxs("div",{className:`
+                        flex
+                        items-center
+                        gap-2
+                        text-black
+                        text-[15px]
+                        font-medium
+                      `,children:[e.jsx("span",{className:"underline underline-offset-4",children:"Know more"}),e.jsx(x,{className:"w-4 h-4"})]})]})},n.id))})]})}),e.jsx(m,{})]})}export{f as default};
